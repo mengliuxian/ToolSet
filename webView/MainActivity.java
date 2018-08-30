@@ -1,4 +1,3 @@
-package com.flym.name.acase;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
