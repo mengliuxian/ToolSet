@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/red_ff"
+            android:paddingBottom="25dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp">
+
+            <TextView
+
+                android:id="@+id/id_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/id_card"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+
+                android:id="@+id/setting"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/wd_shezhi" />
+
+            <com.flym.yh.ui.view.CircleImageView
+                android:id="@+id/head"
+                android:layout_width="87dp"
+                android:layout_height="87dp"
+                android:layout_below="@+id/id_card"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/wd_grmp__touxiang" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/head"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <com.flym.yh.ui.view.CustomMineItemView
+            android:id="@+id/personal_homepage"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:bg="@color/white"
+            app:titleText="@string/personal_homepage" />
+
+        <include layout="@layout/simle_view_gray" />
+
+        <com.flym.yh.ui.view.CustomMineItemView
+            android:id="@+id/authentication"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:bg="@color/white"
+            app:isVisity="false"
+            app:rightText="@string/certified"
+            app:titleText="@string/name_authentication" />
+
+        <com.flym.yh.ui.view.CustomMineItemView
+            android:id="@+id/my_account"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="7dp"
+            app:bg="@color/white"
+            app:titleText="@string/my_account" />
+
+        <include layout="@layout/simle_view_gray" />
+
+        <com.flym.yh.ui.view.CustomMineItemView
+            android:id="@+id/my_forum"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:bg="@color/white"
+            app:titleText="@string/my_forum" />
+
+        <include layout="@layout/simle_view_gray" />
+
+        <com.flym.yh.ui.view.CustomMineItemView
+            android:id="@+id/my_news"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:bg="@color/white"
+            app:titleText="@string/my_news" />
+
+        <include layout="@layout/simle_view_gray" />
+
+        <com.flym.yh.ui.view.CustomMineItemView
+            android:id="@+id/my_evaluate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:bg="@color/white"
+            app:titleText="@string/my_evaluate" />
+
+        <com.flym.yh.ui.view.CustomMineItemView
+            android:id="@+id/customer_service"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="7dp"
+            app:bg="@color/white"
+            app:titleText="@string/customer_service" />
+
+        <include layout="@layout/simle_view_gray" />
+
+        <com.flym.yh.ui.view.CustomMineItemView
+            android:id="@+id/set_time"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:bg="@color/white"
+            app:titleText="@string/set_time" />
+
+        <com.flym.yh.ui.view.CustomMineItemView
+            android:id="@+id/bind_zfb"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="7dp"
+            app:bg="@color/white"
+            app:titleText="@string/bind_zfb" />
+
+        <include layout="@layout/simle_view_gray" />
+
+        <com.flym.yh.ui.view.CustomMineItemView
+            android:id="@+id/bind_wx"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:bg="@color/white"
+            app:titleText="@string/bind_wx" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

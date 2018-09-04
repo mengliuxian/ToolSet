@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="@string/use_of_certification" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="42dp">
+
+            <com.flym.yh.ui.view.ImageTextView
+                android:id="@+id/id_positive"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:image_view_height="90dp"
+                app:image_view_width="90dp"
+                app:ivbg="@drawable/ic_camear"
+                app:tvstring="@string/id_is_positive" />
+
+            <com.flym.yh.ui.view.ImageTextView
+                android:id="@+id/id_reverse"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:image_view_height="90dp"
+                app:image_view_width="90dp"
+                app:ivbg="@drawable/ic_camear"
+                app:tvstring="@string/id_is_reverse" />
+
+            <com.flym.yh.ui.view.ImageTextView
+                android:id="@+id/medical_licence"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:image_view_height="90dp"
+                app:image_view_width="90dp"
+                app:ivbg="@drawable/ic_camear"
+                app:tvstring="@string/medical_licence" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:orientation="horizontal">
+
+            <com.flym.yh.ui.view.ImageTextView
+                android:id="@+id/physicians_practicing_certificate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:image_view_height="90dp"
+                app:image_view_width="90dp"
+                app:ivbg="@drawable/ic_camear"
+                app:tvstring="@string/physicians_practicing_certificate" />
+
+            <com.flym.yh.ui.view.ImageTextView
+                android:id="@+id/employee_card"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:image_view_height="90dp"
+                app:image_view_width="90dp"
+                app:ivbg="@drawable/ic_camear"
+                app:tvstring="@string/employee_card" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/next_text"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/red_ff"
+        android:gravity="center"
+        android:text="@string/submit_the_certification"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</LinearLayout>

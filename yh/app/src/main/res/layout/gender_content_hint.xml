@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/shape_dialog_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/man_layout"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/wd_grzl_xb_xuankuang" />
+
+                <ImageView
+                    android:id="@+id/check_num_man"
+                    android:layout_width="11dp"
+                    android:layout_height="8dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="3dp"
+                    android:src="@drawable/wd_grzl_xb_gou"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_toRightOf="@id/check_num_man"
+                    android:text="@string/man" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/woman_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/wd_grzl_xb_xuankuang" />
+
+                <ImageView
+                    android:id="@+id/check_num_woman"
+                    android:layout_width="11dp"
+                    android:layout_height="8dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="3dp"
+                    android:src="@drawable/wd_grzl_xb_gou"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_toRightOf="@id/check_num_woman"
+                    android:text="@string/woman" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <include layout="@layout/simle_view_gray" />
+
+        <TextView
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/submit"
+            android:textColor="@color/blue_0a"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</LinearLayout>

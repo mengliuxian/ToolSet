@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/physician"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_red_to_white_bg"
+        android:gravity="center_horizontal"
+        android:paddingBottom="4dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="4dp"
+        android:text="@string/physician"
+        android:textColor="@drawable/selector_black_to_white_text_color"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/resident"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_red_to_white_bg"
+        android:gravity="center_horizontal"
+        android:paddingBottom="4dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="4dp"
+        android:text="@string/resident"
+        android:textColor="@drawable/selector_black_to_white_text_color"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/attending_physician"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_red_to_white_bg"
+        android:gravity="center_horizontal"
+        android:paddingBottom="4dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="4dp"
+        android:text="@string/attending_physician"
+        android:textColor="@drawable/selector_black_to_white_text_color"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/associate_senior_doctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_red_to_white_bg"
+        android:gravity="center_horizontal"
+        android:paddingBottom="4dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="4dp"
+        android:text="@string/associate_senior_doctor"
+        android:textColor="@drawable/selector_black_to_white_text_color"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/chief_physician"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_red_to_white_bg"
+        android:gravity="center_horizontal"
+        android:paddingBottom="4dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="4dp"
+        android:text="@string/chief_physician"
+        android:textColor="@drawable/selector_black_to_white_text_color"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/associate_professor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_red_to_white_bg"
+        android:gravity="center_horizontal"
+        android:paddingBottom="4dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="4dp"
+        android:text="@string/associate_professor"
+        android:textColor="@drawable/selector_black_to_white_text_color"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/professor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_red_to_white_bg"
+        android:gravity="center_horizontal"
+        android:paddingBottom="4dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="4dp"
+        android:text="@string/professor"
+        android:textColor="@drawable/selector_black_to_white_text_color"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

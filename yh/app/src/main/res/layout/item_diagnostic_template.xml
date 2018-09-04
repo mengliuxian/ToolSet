@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="10dp">
+
+    <FrameLayout
+        android:id="@+id/r"
+        android:layout_width="23dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="13dp">
+
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_gravity="center"
+            android:background="@drawable/sy_wdzs_zxym_kjhf_sc_quan" />
+
+        <ImageView
+            android:id="@+id/iv_select"
+            android:layout_width="15dp"
+            android:layout_height="11dp"
+            android:layout_gravity="center"
+            android:background="@drawable/sy_wdzs_zxym_kjhf_sc_gouxuan" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/windowBackground" />
+
+    </LinearLayout>
+
+</LinearLayout>

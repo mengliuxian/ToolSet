@@ -1,0 +1,361 @@
+<resources>
+    <string name="app_name">问诊在线</string>
+    <string name="loading_text">加载中…</string>
+    <string name="resend_code_tip">%s秒后重发</string>
+    <string name="take_a_picture">拍照</string>
+    <string name="choose_the_local_image">选择本地图片</string>
+    <string name="mouth">月</string>
+    <string name="day">日</string>
+    <string name="year">年</string>
+    <string name="cancle">取消</string>
+    <string name="canfim">确定</string>
+    <string name="h">时</string>
+    <string name="m">分</string>
+    <string name="s">秒</string>
+
+    <!--四大模块-->
+    <string name="home">首页</string>
+    <string name="information">资讯</string>
+    <string name="forum">论坛</string>
+    <string name="mine">我的</string>
+    <!--登陆注册-->
+    <string name="login_title">医学健康咨询在线</string>
+    <string name="enter_phone">请输入您的手机号码</string>
+    <string name="enter_password">请输入密码</string>
+    <string name="enter_password_second">请再次输入密码</string>
+    <string name="enter_recommended_code">请输入推荐码（如有）</string>
+    <string name="enter_code">请输入验证码</string>
+    <string name="find_back_the_password">找回密码?</string>
+    <string name="find_password">找回密码</string>
+    <string name="register_success">注册成功，现在登录?</string>
+    <string name="login">登陆</string>
+    <string name="register">注册</string>
+    <string name="find_pass">重置密码</string>
+    <string name="get_code">获取验证码</string>
+    <string name="no">否</string>
+    <string name="yes">是</string>
+    <string name="password_is_no">密码输入不一致</string>
+
+
+    <!--实名认证 AuthenticationActivity-->
+    <string name="name_authentication">实名认证</string>
+    <string name="base_information">基本信息</string>
+    <string name="license_information">执照信息</string>
+    <string name="submit_audit">提交审核</string>
+    <string name="complete_people_information">请先完善个人信息</string>
+    <string name="name">姓名</string>
+    <string name="enter_name">"请务必填写本人姓名"</string>
+    <string name="department">科室</string>
+    <string name="change_department">请选择科室</string>
+    <string name="change_department_ac">选择科室</string>
+    <string name="hospital">医院</string>
+    <string name="enter_hospital">请输入所在医院全名</string>
+    <string name="position">职务</string>
+    <string name="enter_position">主任医师</string>
+    <string name="in_the_area">所在地区</string>
+    <string name="detail_address">详细地址</string>
+    <string name="enter_detail_address">输入详细地址</string>
+    <string name="next">下一步</string>
+    <string name="use_of_certification">以下信息仅作认证使用，不会公开</string>
+    <string name="id_is_positive">身份证正面</string>
+    <string name="id_is_reverse">身份证反面</string>
+    <string name="medical_licence">医师资格证</string>
+    <string name="physicians_practicing_certificate">医师执业证</string>
+    <string name="employee_card">工作证</string>
+    <string name="submit_the_certification">提交认证</string>
+    <string name="submitted_successfully">提交成功，我们将会尽快审核</string>
+    <string name="chief_physician">主任医师</string>
+    <string name="physician">医师</string>
+    <string name="associate_senior_doctor">副主任医师</string>
+    <string name="attending_physician">主治医师</string>
+    <string name="resident">住院医师</string>
+    <string name="associate_professor">副教授</string>
+    <string name="professor">教授</string>
+
+    <string-array name="home_tab_title">
+        <item>@string/home</item>
+        <item>@string/information</item>
+        <item>@string/forum</item>
+        <item>@string/mine</item>
+    </string-array>
+
+    <integer-array name="home_tab_icon">
+        <item>@drawable/selector_home_bottom_home</item>
+        <item>@drawable/selector_home_bottom_information</item>
+        <item>@drawable/selector_home_bottom_forum</item>
+        <item>@drawable/selector_home_bottom_mine</item>
+    </integer-array>
+
+    <!-- HomeFragment -->
+    <string name="fans">粉丝</string>
+    <string name="advisory_and_service">咨询与服务</string>
+    <string name="favorable_rate">好评率</string>
+    <string name="my_office">我的诊室</string>
+    <string name="my_service">我的服务</string>
+    <string name="healthy_prescription">健康处方</string>
+    <string name="drug_directory">药物目录</string>
+    <string name="diagnostic_template">诊断模板</string>
+    <string name="medication_template">用药模板</string>
+    <string name="contributors">投稿</string>
+    <string name="graphic_consultation">图文咨询</string>
+    <string name="telephone_consultation">电话咨询</string>
+    <string name="medical_reading">医学阅读</string>
+    <string name="reservation_gohome">预约上门</string>
+    <string name="doctor_lecture">名医讲堂</string>
+    <string name="doctor_broadcast">名医广播</string>
+
+    <!-- SetTelephoneConsultationFragment -->
+    <string name="set_telephone_consultation">设置电话咨询</string>
+    <string name="call_time">通话时长</string>
+    <string name="price_setting">价格设置</string>
+    <string name="add_call_time">添加通话时长</string>
+    <string name="return_time">回电时间</string>
+    <string name="hint_return_time">请输入回电时间段</string>
+    <string name="prompt_telephone">提示:开通服务,可以为购买服务的患者提供电话咨询服务,48小时内有效,48小时后如没回电患者需退还费用</string>
+    <string name="save">保存</string>
+    <string name="hint_select_time">请选择时间</string>
+    <string name="hint_input_price">请输入价格</string>
+    <string name="yuan_ci">元/次</string>
+
+    <!-- SetMoreServiceFragment -->
+    <string name="set_graphic_consultation">设置图文咨询</string>
+    <string name="prompt_graphic">提示:服务的有效期是48小时,48小时之后服务自动关闭</string>
+    <string name="set_medical_reading">设置医学阅读</string>
+    <string name="prompt_reading">提示:开通服务,可以为购买服务的患者提供电话咨询服务,48小时内有效,48小时后如没回电患者需退还费用</string>
+    <string name="set_doctor_lecture">设置名医讲堂</string>
+    <string name="prompt_lecture">提示:您开启此项服务之后,可以发布视频,患者可以进行观看视频</string>
+    <string name="set_doctor_broadcast">设置名医广播</string>
+    <string name="prompt_broadcast">提示:您开启此项服务之后,可以发布广播,患者可以进行收听广播</string>
+    <string name="setting_price">设置价格</string>
+
+    <!-- SetGohomeServiceFragment -->
+    <string name="gohome_service">上门服务</string>
+    <string name="set_reservation_gohome">设置预约上门</string>
+    <string name="prompt_gohome">提示:开通服务之后,可为购买服务的患者提供上门服务</string>
+    <string name="select_service">请选择服务</string>
+    <string name="add_service_item">添加服务项目</string>
+
+    <!-- DiagnosticTemplateFragment -->
+    <string name="manage">管理</string>
+    <string name="add_template">添加模板</string>
+    <string name="cancel">取消</string>
+
+    <!-- AddDiagnosticTemplateFragment -->
+    <string name="please_input_disease_name">请输入疾病的名称</string>
+    <string name="new_">新增</string>
+    <string name="edit">编辑</string>
+    <string name="complete">完成</string>
+
+    <!-- DrugDirectoryFragment -->
+    <string name="hint_about_search">按照关键字搜索</string>
+    <string name="search">搜索</string>
+    <string name="input">导入</string>
+    <string name="search_bottom">查找</string>
+    <string name="drug_liebiao">药物列表</string>
+
+    <!-- QuicklyFindMedicineFragment -->
+    <string name="quickly_find_medicine">快速找药</string>
+
+    <!--MineFragment-->
+    <string name="id_card">名片</string>
+    <string name="personal_homepage">个人主页</string>
+    <string name="my_account">我的账户</string>
+    <string name="my_forum">我的论坛</string>
+    <string name="my_news">我的消息</string>
+    <string name="my_evaluate">我的评价</string>
+    <string name="customer_service">客服中心</string>
+    <string name="set_time">设置门诊时间</string>
+    <string name="bind_zfb">绑定支付宝</string>
+    <string name="bind_wx">绑定微信</string>
+    <string name="certified">已认证</string>
+    <string name="input_the_outpatient_time">输入门诊时间</string>
+
+
+    <!--IdCardActivity-->
+    <string name="personal_card">个人名片</string>
+    <string name="attention_to_me">扫描二维码关注我</string>
+
+    <!--PersonalHomepageActivity-->
+    <string name="consulting_and_services">咨询与服务</string>
+    <string name="rate">好评率</string>
+    <string name="doctor_feat">医生专长</string>
+    <string name="outpatient_service_time">门诊时间</string>
+    <string name="published_articles">我发表的文章</string>
+
+    <!--PersonalDataActivityvity-->
+    <string name="head">头像&#8194;&#8194;&#8194;&#8194;</string>
+    <string name="names">姓名&#8194;&#8194;&#8194;&#8194;</string>
+    <string name="personal_data">个人资料</string>
+    <string name="gender">性别&#8194;&#8194;&#8194;&#8194;</string>
+    <string name="departments">科室&#8194;&#8194;&#8194;&#8194;</string>
+    <string name="the_title">职称&#8194;&#8194;&#8194;&#8194;</string>
+    <string name="specialty">专长&#8194;&#8194;&#8194;&#8194;</string>
+    <string name="practicing_hospital">执业医院</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+
+    <!-- AddMedicationTemplateFragment -->
+    <string name="template_title">模板标题</string>
+    <string name="please_input_template_title_name">请输入标题模板名称</string>
+    <string name="drug_list">药物清单</string>
+    <string name="add">添加</string>
+    <string name="addMed">添加用药模板</string>
+
+    <!-- ContributorsFragment -->
+    <string name="under_review">审核中</string>
+    <string name="already_sent">已投稿</string>
+    <string name="dismissed">已驳回</string>
+    <string name="to_the_platform">向平台投稿</string>
+
+    <!-- WriteArticleFragmen t-->
+    <string name="write_article">写文章</string>
+    <string name="article_title">文章标题:</string>
+    <string name="select_type">选择分类:</string>
+    <string name="upload_pic">上传图片:</string>
+    <string name="select_pic">选择文件</string>
+    <string name="no_select_pic">未选择任何文件</string>
+    <string name="article_content">文章内容:</string>
+    <string name="submit">提交</string>
+    <string name="input_article_content">输入文章内容</string>
+
+    <!-- TelephoneCconsultationFragment -->
+    <string name="patient_inquiries">患者来电咨询</string>
+
+    <!-- ReproductiveCallDetailsFragment -->
+    <string name="reproductive_call">回电页面</string>
+    <string name="contact_patient">联系患者</string>
+    <string name="age">年龄</string>
+    <string name="sex">性别</string>
+
+    <!-- MedicalReadingFragment -->
+    <string name="publish_article">发表文章</string>
+    <string name="del">删除</string>
+
+    <!-- NewMedicalReadingFragment -->
+    <string name="setting_price_">设置价格:</string>
+
+    <!-- ReservationGohomeDetailsFragment -->
+    <string name="reservation_gohome_details">预约上门详情</string>
+
+    <!-- DoctorLectureFragment -->
+    <string name="publish_class">发布课程</string>
+
+    <!-- DoctorBroadcastFragment -->
+    <string name="publish_broadcast">发布广播</string>
+
+    <!--CustomerServiceActivity-->
+    <string name="please_provide_feedback">请输入反馈意见</string>
+    <string name="contact_information">客服联系方式：400–555–654</string>
+
+    <!--MyAccountFragment-->
+    <string name="balance">余额&#8194;&#8194;</string>
+    <string name="can_carry">可提现</string>
+    <string name="balance_carry">余额提现</string>
+    <string name="income_details">收入明细</string>
+
+    <!--IncomeDetailsFragment-->
+    <string name="to">至</string>
+
+    <!--BalanceCarryFragment-->
+    <string name="zfb">支付宝</string>
+    <string name="wx">微信</string>
+    <string name="withdrawal_amount">提现金额</string>
+    <string name="two_working_days_will_arrive">两个工作日会到账</string>
+    <string name="confirms">确认</string>
+    <string name="enter_money_num">输入提现金额</string>
+
+    <!-- NewDoctorLectureFragment -->
+    <string name="class_title">课程标题</string>
+    <string name="input_title_max_length">输入课程标题(最多输入20字)</string>
+    <string name="class_details">课程详情</string>
+    <string name="input_introduction_max_length">输入课程简介(最多输入200字)</string>
+    <string name="class_spoilers">课程剧透</string>
+    <string name="input_spoilers_max_length">输入课程剧透(最多输入200字)</string>
+    <string name="class_cover_img">课程封面图片</string>
+    <string name="input_class_price">输入课程价格</string>
+    <string name="yuan">元</string>
+    <string name="class_video">课程视频</string>
+
+    <!-- HealthyPrescriptionFragment -->
+    <string name="have_health_prescription">已开健康处方</string>
+    <string name="health_prescription">开健康处方</string>
+    <string name="return_health_prescription">撤回健康处方</string>
+    <string name="modify">修改</string>
+    <string name="return_">撤回</string>
+    <string name="return_prescription">撤回处方</string>
+    <string name="health_prescription_details">处方详情</string>
+
+
+    <!--ForumFragment-->
+    <string name="patients_with_bbs">患者论坛</string>
+
+    <!--ReturnCardActivity-->
+    <string name="comments">评论（%s）</string>
+    <string name="return_card">回帖</string>
+
+    <!--SettingFragment-->
+    <string name="change_the_password">修改密码</string>
+    <string name="set_the_price">消息推送</string>
+    <string name="clear_the_cache">清除缓存</string>
+    <string name="login_out">退出当前账号</string>
+    <string name="set_up">设置</string>
+
+    <!--ChangeThePasswordFragment-->
+    <string name="enter_new_password">请输入新密码</string>
+
+    <!--InformationDetailsFragment-->
+    <string name="information_details">资讯详情</string>
+
+    <!--ShoppingMallFragment-->
+    <string name="mall">商城</string>
+    <string name="care_products">医学护肤品</string>
+    <string name="diabetes_zone">糖尿病专区</string>
+    <string name="high_blood">高血压专区</string>
+    <string name="strong_kidney">中医强肾</string>
+    <string name="health_products">营养保健品</string>
+    <string name="care_equipment">保健器械</string>
+    <string name="sexual_health">性健康用品</string>
+    <string name="medicine_nursing">中医调养</string>
+    <string name="child_supplies">母婴用品</string>
+    <string name="book_city">医学书城</string>
+
+    <!--ShopMallGoodListFragment-->
+    <string name="defaults">默认</string>
+    <string name="low_to_high">价格从低到高</string>
+
+    <!--TreatmentWillFragment-->
+    <string name="help_me_buy">（请联系客服中心  帮忙代购）</string>
+    <string name="sure_send_patients">确定发送该健康处方给患者？</string>
+    <string name="sure_succes">发送成功，可以在健康处方中</string>
+    <string name="treatment">治疗建议</string>
+    <string name="empty_8194">&#8194;&#8194;&#8194;&#8194;</string>
+    <string name="treatment_8194">&#8194;&#8194;&#8194;&#8194;&#8194;&#8194;&#8194;&#8194;&#8194;&#8194;治疗建议</string>
+    <!--MedicalReadingFragment-->
+    <string name="details">详情</string>
+    <!--GraphicConsultationFragment-->
+    <string name="in_the_consultation">咨询中</string>
+    <string name="closed">已关闭</string>
+
+    <!--WriteArticleFragment-->
+    <string name="submitted_success">提交成功，请耐心等待后台审核</string>
+
+    <!--CommentActivity-->
+    <string name="comment">评论</string>
+    <string name="do_you_evaluate">您对患者的评价如何？</string>
+    <string name="good_patient">好患者</string>
+    <string name="bad_patient">患者</string>
+    <!--FastReplyActivity-->
+    <string name="fast_reply">快捷回复</string>
+    <string name="word_300">输入快捷回复内容（最多300字）</string>
+
+    <!--DoctorLectureDetailFragment-->
+    <string name="course_details">课程详情</string>
+    <string name="course_according">课程剧透</string>
+
+    <!--ShoppingDetailsActivity-->
+    <string name="graphic_details">图文详情</string>
+    <string name="goods">商品</string>
+    <!--NewDoctorLectureFragment-->
+    <string name="file_up">文件上传中</string>
+
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--标题栏颜色-->
+    <color name="colorPrimary">#ff023f</color>
+    <!--状态栏颜色-->
+    <color name="colorPrimaryDark">#ff023f</color>
+    <!--光标的颜色-->
+    <color name="colorAccent">#000</color>
+    <!--标题栏字体颜色-->
+    <!--<color name="textColorPrimary"></color>-->
+    <!--window背景颜色-->
+    <color name="windowBackground">#f0f0f0</color>
+
+    <color name="black">#000</color>
+
+    <drawable name="transparent">#0000</drawable>
+    <drawable name="colorPrimary">#1CB0F6</drawable>
+    <drawable name="gray">#999999</drawable>
+    <drawable name="blue_13">#13D4E9</drawable>
+    <color name="blue_1D">#1DB3AF</color>
+
+    <color name="black_32">#323232</color>
+    <color name="black_transparent">#b000</color>
+    <color name="blue_EB">#EBF9FF</color>
+    <color name="red_E6">#E62129</color>
+    <color name="white">#fff</color>
+    <color name="grey_33">#333333</color>
+    <color name="black_5D">#5D5D5D</color>
+    <color name="gray_3D">#3D3E3F</color>
+    <color name="blue_19">#199DEA</color>
+    <color name="blue_20">#20B9D8</color>
+    <color name="blue_0a">#0a62da</color>
+    <color name="black_17">#171717</color>
+    <color name="black_26">#262626</color>
+    <color name="black_31">#313131</color>
+    <color name="black_74">#747474</color>
+    <color name="transparent">#0fff</color>
+    <color name="gray_99">#999999</color>
+    <color name="gray_d9">#d9d9d9</color>
+    <color name="gray_51">#515151</color>
+    <color name="gray_3B">#3B3F41</color>
+    <color name="gray_bf">#bfc1c1c1</color>
+    <color name="blue_1A">#1ABC9C</color>
+    <color name="green_5C">#5CB85C</color>
+    <color name="gray_80">#808080</color>
+    <color name="gray_8D">#8D8D8D</color>
+    <color name="black_38">#3D3838</color>
+    <color name="black_28">#282828</color>
+    <color name="blue_5c">#5CB85C</color>
+    <color name="red_BF">#BF1B21</color>
+    <color name="red_ff">#ff023f</color>
+    <color name="black_BB">#BBBBBB</color>
+    <color name="black_21">#212121</color>
+    <color name="red_E3">#E30211</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="black_3b">#3B3C49</color>
+    <color name="gray_e5">#e5e5e5</color>
+    <color name="gray_86">#868796</color>
+    <color name="gray_F5">#F5F5F5</color>
+    <color name="gray_F2">#F2F2F3</color>
+    <color name="gray_C1">#C1C1C1</color>
+    <color name="gray_62">#626262</color>
+    <color name="layout_spacing_color">#d8d8d8</color>
+    <color name="red_FA">#FA3A70</color>
+    <color name="red_E8">#E8004C</color>
+    <color name="green_59">#59DBAF</color>
+    <color name="purple_9A">#9A89FF</color>
+    <color name="yellow_FB">#FB7626</color>
+    <color name="yellow_EC">#EC822B</color>
+    <color name="yellow_F9">#F9B244</color>
+    <color name="brown_8A">#8A280A</color>
+    <color name="blue_e6">#E6F7FF</color>
+    <color name="purple_9B">#9B59B6</color>
+    <color name="blue_E1">#E1F5FF</color>
+
+    <color name="blue_13">#13D4E9</color>
+    <color name="praise_color">#13D4E9</color>
+    <color name="criticize_color">#FA3A70</color>
+    <color name="cur_back_color">#0F0</color>
+    <color name="last_back_color">#00f</color>
+    <color name="cur_growth_color">#00F</color>
+    <color name="last_growth_color">#0f0</color>
+    <color name="flat_average_color">#340f0d</color>
+    <color name="above_average_color">#344f0d</color>
+    <color name="below_average_color">#404ffd</color>
+    <color name="pink_FD">#FDE2EB</color>
+</resources>

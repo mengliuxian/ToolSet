@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--圆形ImageView-->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomMineItemView">
+        <attr name="leftIcon" format="reference" />
+        <attr name="titleText" format="string" />
+        <attr name="rightIcon" format="reference" />
+        <attr name="rightText" format="string" />
+        <attr name="isVisity" format="boolean" />
+        <attr name="isNotVisity" format="boolean" />
+        <attr name="rightColor" format="color" />
+        <attr name="rightSize" format="dimension" />
+        <attr name="rightGravity" format="integer" />
+        <attr name="imageWidth" format="dimension" />
+        <attr name="imageHeight" format="dimension" />
+        <attr name="bg" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ToolbarLayout">
+        <attr name="contertitleText" format="string" />
+        <attr name="rightTitleText" format="string" />
+    </declare-styleable>
+
+    <string-array name="contrbutors_tab_text">
+        <item>@string/under_review</item>
+        <item>@string/already_sent</item>
+        <item>@string/dismissed</item>
+    </string-array>
+
+    <string-array name="healthy_prescription_tab_text">
+        <item>@string/have_health_prescription</item>
+        <item>@string/return_health_prescription</item>
+    </string-array>
+
+    <declare-styleable name="SpringView">
+        <attr name="type">
+            <enum name="overlap" value="0"/>
+            <enum name="follow" value="1"/>
+        </attr>
+        <attr name="give">
+            <enum name="both" value="0"/>
+            <enum name="top" value="1"/>
+            <enum name="bottom" value="2"/>
+            <enum name="none" value="3"/>
+        </attr>
+        <attr name="header" format="reference"/>
+        <attr name="footer" format="reference"/>
+    </declare-styleable>
+</resources>

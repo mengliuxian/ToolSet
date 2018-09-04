@@ -1,0 +1,121 @@
+import java.sql.Date
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.flym.yh"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+
+
+
+        ndk {
+            //选择要添加的对应cpu类型的.so库。
+            abiFilters 'armeabi-v7a', 'x86'
+//                    'arm64-v8a', 'x86', 'x86_64', 'mips', 'mips64','armeabi',
+            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64'
+        }
+        manifestPlaceholders = [
+                JPUSH_PKGNAME: applicationId,
+                JPUSH_APPKEY : "9c95b65492c5dc9e63877416", //JPush上注册的包名对应的appkey.
+                JPUSH_CHANNEL: "developer-default", //暂时填写默认值即可.
+        ]
+
+
+    }
+
+
+
+    signingConfigs {
+
+        release {
+            keyAlias 'yh'
+            keyPassword '244918600'
+            storeFile file('/yh.jks')
+            storePassword '244918600'
+
+        }
+    }
+//    android.applicationVariants.all {
+//        variant ->
+//            variant.outputs.all {
+//                def date = new java.util.Date().format("HH:mm")
+//                outputFileName = "问诊在线_${date}.apk"
+//            }
+//    }
+
+    buildTypes {
+        release {
+
+            minifyEnabled true
+            zipAlignEnabled true     //Zipalign优化
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            zipAlignEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'pub.devrel:easypermissions:0.3.0'
+    //retrofit
+    implementation('com.squareup.retrofit2:retrofit:2.2.0') {
+        exclude module: "okhttp"
+    }
+    implementation 'com.squareup.retrofit2:converter-gson:2.2.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.2.0'
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.18'
+    implementation 'com.google.code.gson:gson:2.8.0'
+    implementation 'com.squareup.okhttp3:okhttp-urlconnection:3.6.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.6.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.2'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'cn.bingoogolapple:bga-banner:2.2.4@aar'
+    implementation 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    implementation 'com.github.bumptech.glide:glide:4.3.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.3.1'
+    implementation 'id.zelory:compressor:2.1.0'
+    implementation project(':easeui')
+    compile 'com.aliyun.dpa:oss-android-sdk:2.8.0'
+    compile 'com.squareup.okio:okio:1.9.0'
+    compile 'cn.jzvd:jiaozivideoplayer:6.2.9'
+    compile 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:1.4.0'
+    compile 'cn.jiguang.sdk:jpush:3.1.2'
+    compile 'cn.jiguang.sdk:jcore:1.2.0'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-java:0.8.4'
+    implementation 'com.tamic.novate:novate:1.5.5'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.4'
+}
+

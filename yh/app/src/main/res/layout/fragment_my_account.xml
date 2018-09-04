@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/back_toolbar" />
+
+    <com.flym.yh.ui.view.CustomMineItemView
+        android:id="@+id/balance"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        app:bg="@color/white"
+        app:isVisity="false"
+        app:leftIcon="@drawable/wd_wdzh_yue"
+        app:rightColor="@color/red_ff"
+        app:rightGravity="2"
+        app:rightText=""
+        app:titleText="@string/balance" />
+
+    <com.flym.yh.ui.view.CustomMineItemView
+        android:id="@+id/can_carry"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        app:bg="@color/white"
+        app:isVisity="false"
+        app:leftIcon="@drawable/wd_wdzh_tixian"
+        app:rightColor="@color/red_ff"
+        app:rightGravity="2"
+        app:rightText=""
+        app:titleText="@string/can_carry" />
+
+
+    <com.flym.yh.ui.view.CustomMineItemView
+        android:id="@+id/balance_carry"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        app:bg="@color/white"
+        app:isVisity="false"
+        app:leftIcon="@drawable/wd_wdzh_yuetiixian"
+        app:rightColor="@color/red_ff"
+        app:rightGravity="2"
+        app:rightText=""
+        app:titleText="@string/balance_carry" />
+
+    <com.flym.yh.ui.view.CustomMineItemView
+        android:id="@+id/income_details"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        app:bg="@color/white"
+        app:isVisity="false"
+        app:leftIcon="@drawable/wd_wdzh_shourumingxi"
+        app:rightColor="@color/red_ff"
+        app:rightGravity="2"
+        app:rightText=""
+        app:titleText="@string/income_details" />
+
+
+</LinearLayout>

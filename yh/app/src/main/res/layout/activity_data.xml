@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.flym.yh.ui.activity.mine.PersonalDataActivity">
+
+    <include layout="@layout/back_toolbar" />
+
+    <com.flym.yh.ui.view.CustomMineItemView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        app:bg="@color/white"
+        app:imageHeight="47dp"
+        app:imageWidth="47dp"
+        app:rightIcon="@drawable/wd_grmp__touxiang"
+        app:titleText="@string/head" />
+
+    <include layout="@layout/simle_view_gray" />
+
+    <com.flym.yh.ui.view.CustomMineItemView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        app:bg="@color/white"
+        app:rightGravity="1"
+        app:titleText="@string/names" />
+
+    <include layout="@layout/simle_view_gray" />
+
+    <com.flym.yh.ui.view.CustomMineItemView
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        app:bg="@color/white"
+        app:rightGravity="1"
+        app:titleText="@string/gender" />
+
+    <include layout="@layout/simle_view_gray" />
+
+    <com.flym.yh.ui.view.CustomMineItemView
+        android:id="@+id/department"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        app:bg="@color/white"
+        app:rightGravity="1"
+        app:titleText="@string/departments" />
+
+    <include layout="@layout/simle_view_gray" />
+
+
+    <com.flym.yh.ui.view.CustomMineItemView
+        android:id="@+id/the_title"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        app:bg="@color/white"
+        app:rightGravity="1"
+        app:titleText="@string/the_title" />
+
+    <include layout="@layout/simle_view_gray" />
+
+
+    <com.flym.yh.ui.view.CustomMineItemView
+        android:id="@+id/specialty"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        app:bg="@color/white"
+        app:rightGravity="1"
+        app:titleText="@string/specialty" />
+
+    <include layout="@layout/simle_view_gray" />
+
+    <com.flym.yh.ui.view.CustomMineItemView
+        android:id="@+id/practicing_hospital"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        app:bg="@color/white"
+        app:rightGravity="1"
+        app:titleText="@string/practicing_hospital" />
+
+    <include layout="@layout/simle_view_gray" />
+
+    <com.flym.yh.ui.view.CustomMineItemView
+        android:id="@+id/detail_address"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        app:bg="@color/white"
+        app:rightGravity="1"
+        app:titleText="@string/detail_address" />
+
+</LinearLayout>

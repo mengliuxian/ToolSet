@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_top_radiue_origin"
+        android:gravity="center"
+        android:paddingBottom="17dp"
+        android:paddingTop="17dp"
+        android:text="修改头像"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_top_radio_white"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/camera"
+           android:textSize="14sp"
+            android:textColor="@color/black_deep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="13dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="13dp"
+            android:text="@string/attach_take_pic" />
+
+        <include layout="@layout/simle_view_gray" />
+
+        <TextView
+            android:id="@+id/album"
+            android:textSize="14sp"
+            android:textColor="@color/black_deep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="13dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="13dp"
+            android:text="@string/choose_the_local_image" />
+
+        <include layout="@layout/simle_view_gray" />
+
+        <Button
+            android:id="@+id/no"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_origin_stoke_white"
+            android:text="取消"
+            android:textColor="@color/black_deep"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

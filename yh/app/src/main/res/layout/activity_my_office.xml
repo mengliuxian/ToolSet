@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- 我的诊室布局 -->
+    <include layout="@layout/back_toolbar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="患者列表"
+        android:textColor="@color/colorPrimary" />
+
+    <com.flym.yh.ui.view.spring.SpringView
+        android:id="@+id/spring"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </com.flym.yh.ui.view.spring.SpringView>
+</LinearLayout>

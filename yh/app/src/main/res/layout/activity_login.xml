@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.flym.yh.ui.activity.login.LoginActivity">
+
+    <com.flym.yh.ui.view.ToolbarLayout
+        android:id="@+id/toolbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contertitleText="@string/login"
+    />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/toolbarLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:src="@drawable/ic_logo" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="@string/login_title"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/phone"
+        style="@style/edit_text_style"
+        android:layout_below="@id/title"
+        android:drawableLeft="@drawable/ic_phone"
+        android:hint="@string/enter_phone"
+        android:maxLength="11" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/password"
+        style="@style/edit_text_style"
+        android:layout_below="@id/phone"
+        android:layout_marginTop="9dp"
+        android:drawableLeft="@drawable/ic_password"
+        android:hint="@string/enter_password" />
+
+    <TextView
+        android:id="@+id/find_back_the_password"
+        style="@style/find_password_style"
+        android:text="@string/find_back_the_password" />
+
+    <Button
+        android:id="@+id/login"
+        style="@style/button_style"
+        android:layout_below="@+id/password"
+        android:enabled="false"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/register"
+        style="@style/button_style"
+        android:background="@drawable/shape_button_gray_bg"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="12dp"
+        android:text="@string/register" />
+</RelativeLayout>

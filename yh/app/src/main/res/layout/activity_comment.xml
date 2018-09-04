@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.home.CommentActivity">
+
+
+    <include layout="@layout/back_toolbar" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red_ff"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.flym.yh.ui.view.CircleImageView
+                android:id="@+id/iv_head"
+                android:layout_width="77dp"
+                android:layout_height="77dp" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/do_you_evaluate"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:paddingBottom="17dp"
+        android:paddingTop="17dp"
+
+        >
+
+        <com.flym.yh.ui.view.CircleImageView
+            android:id="@+id/iv_good"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:src="@drawable/sy_wdzs_zxym_pl_haohuanzhe" />
+
+        <TextView
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_good"
+            android:layout_marginTop="14dp"
+            android:gravity="center"
+            android:text="@string/good_patient"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <com.flym.yh.ui.view.CircleImageView
+            android:id="@+id/iv_bad"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="70dp"
+            android:layout_toRightOf="@id/iv_good"
+            android:src="@drawable/sy_wdzs_zxym_pl_huanzhe" />
+
+        <TextView
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/iv_bad"
+            android:layout_below="@id/iv_bad"
+            android:layout_marginTop="14dp"
+            android:gravity="center"
+            android:text="@string/bad_patient"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bt_next"
+        style="@style/button_style"
+        android:enabled="false"
+        android:text="@string/submit"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+</LinearLayout>

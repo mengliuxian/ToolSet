@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.flym.yh.ui.activity.mine.IdCardActivity">
+
+    <include layout="@layout/back_toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@drawable/shape_id_card_bg"
+        android:padding="30dp">
+
+        <com.flym.yh.ui.view.CircleImageView
+            android:id="@+id/id_car_heard"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginRight="26dp"
+            android:src="@drawable/wd_grmp__touxiang" />
+
+        <TextView
+            android:id="@+id/id_card_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:layout_toRightOf="@+id/id_car_heard"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/department"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="41dp"
+            android:layout_toRightOf="@+id/id_car_heard"
+            android:textColor="@color/gray_62"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/hospital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/department"
+            android:layout_toRightOf="@+id/id_car_heard"
+            android:textColor="@color/gray_62"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_car_heard"
+            android:layout_marginTop="55dp"
+            android:text="@string/attention_to_me"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:src="@drawable/erweima"
+            android:id="@+id/qr_code"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/id_car_heard"
+            android:layout_marginTop="93dp" />
+    </RelativeLayout>
+</LinearLayout>

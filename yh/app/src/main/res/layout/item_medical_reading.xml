@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="7dp"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <FrameLayout
+        android:id="@+id/f_box"
+        android:layout_width="23dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_gravity="center"
+            android:background="@drawable/sy_wdzs_zxym_kjhf_sc_quan" />
+
+        <ImageView
+            android:id="@+id/iv_select"
+            android:layout_width="15dp"
+            android:layout_height="11dp"
+            android:layout_gravity="center"
+            android:background="@drawable/sy_wdzs_zxym_kjhf_sc_gouxuan" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="110dp"
+        android:layout_height="75dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/red_ff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="bottom"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

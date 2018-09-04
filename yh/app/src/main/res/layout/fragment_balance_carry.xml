@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/back_toolbar" />
+
+    <LinearLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/red_ff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="13dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:src="@drawable/wd_wdzh_yetx_txfs_zhifubao" />
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/wd_wdzh_yetx_jiantou"
+            android:text="@string/zfb"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/money_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+
+            android:text="@string/withdrawal_amount"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="33dp"
+            android:orientation="horizontal"
+            android:paddingLeft="38dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="￥"
+                android:textColor="@color/black"
+                android:textSize="36sp" />
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/money"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/layout_spacing_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/two_working_days_will_arrive"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/confirms"
+            style="@style/button_style"
+            android:text="@string/confirms" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/zfb_wx_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/gray_d9">
+
+        <ImageView
+            android:id="@+id/zfb"
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:layout_marginBottom="13dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/wd_wdzh_yetx_txfs_zhifubao" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="27dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/zfb"
+            android:text="@string/zfb" />
+
+        <FrameLayout
+            android:id="@+id/r"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="22dp">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_gravity="center"
+                android:background="@drawable/sy_wdzs_zxym_kjhf_sc_quan" />
+
+            <ImageView
+                android:id="@+id/iv_select"
+                android:layout_width="15dp"
+                android:layout_height="11dp"
+                android:layout_gravity="center"
+                android:background="@drawable/sy_wdzs_zxym_kjhf_sc_gouxuan" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/zfb"
+            android:layout_marginTop="5dp"
+            android:background="@color/white" />
+
+        <ImageView
+            android:id="@+id/wx"
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:layout_below="@id/view"
+            android:layout_marginBottom="13dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/wd_wdzh_yetx_txfs_weixin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="24dp"
+            android:layout_toRightOf="@id/wx"
+            android:text="@string/wx" />
+
+        <FrameLayout
+            android:id="@+id/layout"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/view"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="22dp">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_gravity="center"
+                android:background="@drawable/sy_wdzs_zxym_kjhf_sc_quan" />
+
+            <ImageView
+                android:id="@+id/iv_select_dwon"
+                android:layout_width="15dp"
+                android:layout_height="11dp"
+                android:layout_gravity="center"
+                android:background="@drawable/sy_wdzs_zxym_kjhf_sc_gouxuan"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/wx"
+            android:layout_marginTop="5dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/canfim"
+            android:layout_width="183dp"
+            android:layout_height="41dp"
+            android:layout_below="@id/view1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/shape_edit_radio_white"
+            android:gravity="center"
+            android:text="@string/canfim" />
+    </RelativeLayout>
+
+
+</LinearLayout>

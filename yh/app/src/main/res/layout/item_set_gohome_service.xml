@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:id="@+id/tv_left"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="X"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="107dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/tv_left"
+        android:drawableRight="@drawable/sy_wdfw_xiala"
+        android:paddingRight="9dp"
+        android:background="@drawable/shape_text_white"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/select_service"
+        android:textSize="12sp"
+         />
+
+
+    <EditText
+        android:id="@+id/ed_price"
+        android:layout_width="107dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/tv_right"
+        android:background="@drawable/shape_text_white"
+        android:gravity="right|center"
+        android:hint="@string/hint_input_price"
+        android:paddingRight="10dp"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_right"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="@string/yuan_ci" />
+
+</RelativeLayout>
