@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.ali.auth.sdk:alibabauth_ui-1.1.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/37c1643460b71fcc72961553741db996d2cebab2/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/37c1643460b71fcc72961553741db996d2cebab2/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

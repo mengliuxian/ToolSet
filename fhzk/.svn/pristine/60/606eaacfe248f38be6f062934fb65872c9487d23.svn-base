@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_F5"
+    android:orientation="vertical">
+
+    <com.flym.fhzk.view.ScrollViewChosses
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="215dp"
+                android:background="@drawable/ic_mine_bg" />
+
+            <com.flym.fhzk.view.CircleImageView
+                android:id="@+id/logo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/ic_simple_head" />
+
+            <RelativeLayout
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp">
+
+                <com.flym.fhzk.view.CircleImageView
+                    android:id="@+id/news"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+
+                    android:src="@drawable/ic_mine_news" />
+
+                <com.flym.fhzk.view.CircleImageView
+                    android:id="@+id/point"
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="3dp"
+                    android:src="@color/red_E6"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/login_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="点击登录淘宝账户"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:id="@+id/top_layout"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@id/login_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/ic_mine_bottom_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+
+                >
+
+                <TextView
+                    android:id="@+id/collect"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@drawable/ic_mine_collect"
+                    android:gravity="center"
+                    android:text="我的收藏"
+                    android:textColor="@color/black_38"
+                    android:textSize="14sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/return_money"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@drawable/ic_mine_return"
+                    android:gravity="center"
+                    android:text="我的返利"
+                    android:textColor="@color/black_38"
+                    android:textSize="14sp"
+                    android:visibility="gone"
+
+                    />
+
+                <TextView
+                    android:id="@+id/taobao"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@drawable/ic_taobao_order"
+                    android:gravity="center"
+                    android:text="淘宝订单"
+                    android:textColor="@color/black_38"
+                    android:textSize="14sp"
+
+                    />
+            </LinearLayout>
+
+            <com.flym.fhzk.view.CustomMineItemView
+                android:id="@+id/my_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/top_layout"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                app:rightText="共0单"
+                app:titleText="我的凤凰订单" />
+
+            <LinearLayout
+                android:id="@+id/two_layout"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@id/my_order"
+                android:layout_centerHorizontal="true"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone"
+
+                >
+
+                <TextView
+                    android:id="@+id/all_order"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@drawable/ic_mine_all_order"
+                    android:gravity="center"
+                    android:text="全部订单"
+                    android:textColor="@color/black_38"
+                    android:textSize="14sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/about_money"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@drawable/ic_mine_about_money"
+                    android:gravity="center"
+                    android:text="即将到账"
+                    android:textColor="@color/black_38"
+                    android:textSize="14sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/get_money"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@drawable/ic_mine_get_money"
+                    android:gravity="center"
+                    android:text="已到账"
+                    android:textColor="@color/black_38"
+                    android:textSize="14sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/error_order"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@drawable/ic_mine_error_order"
+                    android:gravity="center"
+                    android:text="无效订单"
+                    android:textColor="@color/black_38"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <com.flym.fhzk.view.CustomMineItemView
+                android:id="@+id/friend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/two_layout"
+                android:layout_marginTop="10dp"
+                app:leftIcon="@drawable/ic_mine_friend"
+                app:titleText="邀请好友奖励" />
+
+            <com.flym.fhzk.view.CustomMineItemView
+                android:id="@+id/sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/friend"
+                android:visibility="gone"
+                app:leftIcon="@drawable/ic_mine_sign_in"
+                app:titleText="签到有奖" />
+
+            <com.flym.fhzk.view.CustomMineItemView
+                android:id="@+id/foot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sign_in"
+                app:leftIcon="@drawable/ic_mine_foot"
+                app:titleText="我的足迹" />
+
+            <com.flym.fhzk.view.CustomMineItemView
+                android:id="@+id/get_coupon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/foot"
+                app:leftIcon="@drawable/ic_mine_get_coupon"
+                app:titleText="领券指南" />
+
+            <com.flym.fhzk.view.CustomMineItemView
+                android:id="@+id/setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/get_coupon"
+                app:leftIcon="@drawable/ic_mine_setting"
+                app:titleText="设置" />
+
+            <com.flym.fhzk.view.CustomMineItemView
+                android:id="@+id/help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/setting"
+                android:layout_marginBottom="10dp"
+                app:leftIcon="@drawable/ic_mine_help"
+                app:titleText="帮助中心" />
+
+        </RelativeLayout>
+
+    </com.flym.fhzk.view.ScrollViewChosses>
+</RelativeLayout>

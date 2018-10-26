@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.flym.fhzk">
+
+    <!-- 访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 友盟分享权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="com.flym.fhzk..permission.JPUSH_MESSAGE" />
+
+    <application xmlns:tools="http://schemas.android.com/tools"
+        android:name="com.flym.fhzk.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyAppTheme"
+        tools:replace="android:allowBackup">
+        <activity
+            android:name="com.flym.fhzk.ui.SplashActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- LAUNCHER 决定应用程序是否显示在程序列表里。 -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.flym.fhzk.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+
+        <activity android:name="com.flym.fhzk.ui.activity.home.HomeActivity" />
+        <activity android:name="com.flym.fhzk.ui.activity.login.LoginActivity" />
+        <activity android:name="com.flym.fhzk.ui.activity.action.RankActivity" />
+        <activity android:name="com.flym.fhzk.ui.activity.search.SearchActivity" />
+        <activity android:name="com.flym.fhzk.ui.activity.search.GoodsActivity" />
+        <activity android:name="com.flym.fhzk.ui.activity.action.MailActivity" />
+        <activity android:name="com.flym.fhzk.ui.activity.action.LargeVouchersActivity" />
+        <activity android:name="com.flym.fhzk.ui.activity.home.AllClassifyActivity" />
+        <activity android:name="com.flym.fhzk.ui.activity.home.SingleClassifyActivity" />
+        <activity android:name="com.flym.fhzk.ui.activity.mine.SettingActivity" />
+        <activity android:name="com.flym.fhzk.ui.WebViewActivity" />
+        <activity android:name="com.flym.fhzk.ui.activity.mine.CollectActivity" />
+        <activity android:name="com.flym.fhzk.ui.activity.mine.FootPrintActivity" />
+        <activity android:name="com.flym.fhzk.ui.activity.mine.RebatesActivity" />
+        <activity
+            android:name="com.flym.fhzk.ui.activity.mine.WithdrawalActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name="com.flym.fhzk.ui.activity.mine.HelpActivity" />
+        <activity android:name="com.flym.fhzk.ui.activity.mine.InviteActivity" />
+        <activity android:name="com.flym.fhzk.ui.activity.mine.NewsActivity" />
+        <activity android:name="com.flym.fhzk.ui.activity.mine.TBActivity" />
+        <activity android:name="com.flym.fhzk.ui.activity.mine.MyOrderActivity" />
+        <activity
+            android:name="com.flym.fhzk.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- tencent后面添加申请好的AppId -->
+                <data android:scheme="tencent1106581025" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5a4c8c54a40fa35b97000192" />
+
+        <activity android:name="com.flym.fhzk.ui.activity.mine.BindTBActivity" />
+        <activity android:name=".ui.activity.goods.TbWebViewActivity" />
+
+        <receiver
+            android:name=".view.MyReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <!--Required 用户注册SDK的intent-->
+                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+                <!--Required 用户接收SDK消息的intent-->
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+                <!--Required 用户接收SDK通知栏信息的intent-->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+                <!--Required 用户打开自定义通知栏的intent-->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+                <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" />
+                <category android:name="com.flym.fhzk" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

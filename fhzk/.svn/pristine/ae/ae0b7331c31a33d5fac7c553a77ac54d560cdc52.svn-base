@@ -1,0 +1,398 @@
+[
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_login_button_blue.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\shape_login_button_blue.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_gradient.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\shape_gradient.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bga_banner_selector_point_hollow.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7d535629466d35962bd65095c8ce479ca466b615\\output\\res\\drawable\\bga_banner_selector_point_hollow.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_point_toggle.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\selector_point_toggle.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_video.png",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\umeng_socialize_share_video.png"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_drawable_white.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\progress_drawable_white.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_white_corner.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\shape_white_corner.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_menu_default.png",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\umeng_socialize_menu_default.png"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qzone.png",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\umeng_socialize_qzone.png"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_corner_stroke_white_red.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\shape_corner_stroke_white_red.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_edit_bg.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\umeng_socialize_edit_bg.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_delete.png",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\umeng_socialize_delete.png"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_back_icon.png",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\umeng_socialize_back_icon.png"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_top_radio_white.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\shape_top_radio_white.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_fav.png",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\umeng_socialize_fav.png"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\simple_gray.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\simple_gray.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_radio_white.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\shape_radio_white.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_divider_vertical.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\layout_divider_vertical.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_alibaba_bc_auth_success_btn.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ce4976a8795a4f3abba4bd2f20b348bb472fe052\\output\\res\\drawable\\com_alibaba_bc_auth_success_btn.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_alibaba_bc_auth_cancle_btn.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ce4976a8795a4f3abba4bd2f20b348bb472fe052\\output\\res\\drawable\\com_alibaba_bc_auth_cancle_btn.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_copyurl.png",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\umeng_socialize_copyurl.png"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_top_radiue_origin.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\shape_top_radiue_origin.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_white_corner_red_bg.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\shape_stroke_white_corner_red_bg.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wxcircle.png",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\umeng_socialize_wxcircle.png"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home_textview_color.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\home_textview_color.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_bg_gray_conner.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\shape_bg_gray_conner.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\27f9307c389128fb43e5a086107eff8c1a8e594a\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_red_stoke.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\shape_red_stoke.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\27f9307c389128fb43e5a086107eff8c1a8e594a\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\27f9307c389128fb43e5a086107eff8c1a8e594a\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_footer_loading_progress.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a284e78c4f8eb6767854ab41fbd064e957acd899\\output\\res\\drawable\\sample_footer_loading_progress.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jpush_richpush_progressbar.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\jpush_richpush_progressbar.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_collect_check_btn.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\select_collect_check_btn.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_tab_title_color.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\bottom_tab_title_color.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_alibaba_bc_auth_ll_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ce4976a8795a4f3abba4bd2f20b348bb472fe052\\output\\res\\drawable\\com_alibaba_bc_auth_ll_bg.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_login_button_bg.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\selector_login_button_bg.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_more.png",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\umeng_socialize_more.png"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_pink_gray_text.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\selector_pink_gray_text.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_edit_bg_stroke_radius.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\shape_edit_bg_stroke_radius.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_music.png",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\umeng_socialize_share_music.png"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_web.png",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\umeng_socialize_share_web.png"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_main_bottom_home.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\selector_main_bottom_home.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\yw_1222.jpg",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\yw_1222.jpg"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_footer_loading.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a284e78c4f8eb6767854ab41fbd064e957acd899\\output\\res\\drawable\\sample_footer_loading.png"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_origin_stoke_white.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\shape_origin_stoke_white.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_btn_bg.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\umeng_socialize_btn_bg.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selecter_text_red_balck.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\selecter_text_red_balck.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bga_banner_selector_point_solid.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7d535629466d35962bd65095c8ce479ca466b615\\output\\res\\drawable\\bga_banner_selector_point_solid.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_concer_white_bg.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\shape_concer_white_bg.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_alibc_trade_auth_close.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ce4976a8795a4f3abba4bd2f20b348bb472fe052\\output\\res\\drawable\\com_alibc_trade_auth_close.png"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jpush_richpush_btn_selector.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\jpush_richpush_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wechat.png",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\umeng_socialize_wechat.png"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_concer_transport_bg.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\shape_concer_transport_bg.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_main_bottom_mind.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\selector_main_bottom_mind.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_copy.png",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\umeng_socialize_copy.png"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\27f9307c389128fb43e5a086107eff8c1a8e594a\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\27f9307c389128fb43e5a086107eff8c1a8e594a\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_corner_red_bg.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\shape_corner_red_bg.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_main_bottom_find.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\selector_main_bottom_find.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qq.png",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\umeng_socialize_qq.png"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_check_box_toggle_register.xml",
+        "source": "E:\\Workspace\\fhzk\\app\\src\\main\\res\\drawable\\selector_check_box_toggle_register.xml"
+    },
+    {
+        "merged": "E:\\Workspace\\fhzk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\038277779f696f7c4391dc28360b56dec0780b28\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    }
+]

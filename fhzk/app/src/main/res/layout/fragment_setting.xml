@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_F5"
+    android:orientation="vertical">
+
+    <include layout="@layout/back_toolbar" />
+
+    <com.flym.fhzk.view.CustomMineItemView
+        android:id="@+id/bind_t_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_layout"
+        android:layout_marginTop="10dp"
+        app:isVisity="true"
+        app:rightText="绑定淘宝账户"
+        app:titleText="淘宝账户" />
+
+    <com.flym.fhzk.view.CustomMineItemView
+        android:id="@+id/update_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_layout"
+        app:isVisity="false"
+        app:rightIcon="@mipmap/ic_launcher"
+        app:titleText="头像" />
+
+    <com.flym.fhzk.view.CustomMineItemView
+        android:id="@+id/zfb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_layout"
+        app:rightText="去绑定"
+        android:visibility="gone"
+        app:titleText="支付宝" />
+
+    <com.flym.fhzk.view.CustomMineItemView
+        android:id="@+id/clear_cache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_layout"
+        android:layout_marginTop="10dp"
+        app:isVisity="false"
+        app:rightText=""
+        app:titleText="清除缓存" />
+
+    <com.flym.fhzk.view.CustomMineItemView
+        android:id="@+id/check_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_layout"
+        app:isVisity="false"
+        app:rightText="1.1.1"
+        app:titleText="版本检测" />
+
+    <com.flym.fhzk.view.CustomMineItemView
+        android:id="@+id/about_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_layout"
+        app:titleText="关于我们" />
+
+    <TextView
+        android:id="@+id/out"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/shape_corner_red_bg"
+        android:gravity="center"
+        android:text="退出当前账号"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

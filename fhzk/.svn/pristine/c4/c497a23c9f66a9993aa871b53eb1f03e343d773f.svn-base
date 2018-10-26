@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:48
+-keep class com.flym.fhzk.MyApplication { <init>(...); }
+

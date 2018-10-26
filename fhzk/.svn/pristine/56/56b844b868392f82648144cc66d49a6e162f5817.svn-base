@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mcxtzhang.swipemenulib.SwipeMenuLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/goods_logo"
+            android:layout_width="97dp"
+            android:layout_height="97dp" />
+
+        <TextView
+            android:id="@+id/goods_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/goods_logo"
+            android:maxLines="1"
+            android:text="香水司法傻大姐啊"
+            android:textColor="@color/black_38"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/vouchers_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/goods_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/goods_logo"
+            android:text="券后："
+            android:textColor="@color/black_38"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/goods_name"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/vouchers_text"
+            android:text="￥"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/goods_name"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/text"
+            android:textColor="@color/red_E6"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/old_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/goods_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/money"
+            android:textColor="@color/gray_86"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vouchers"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/goods_name"
+            android:layout_marginTop="20dp"
+            android:background="@color/red_E6"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/return_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/goods_logo"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/goods_logo"
+            android:text="再返￥10"
+            android:textColor="@color/gray_86"
+            android:textSize="12sp" />
+
+        <TextView
+
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/goods_logo"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:text="有效期2017-08-09"
+            android:textColor="@color/gray_86"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_remove" />
+    </RelativeLayout>
+</com.mcxtzhang.swipemenulib.SwipeMenuLayout>

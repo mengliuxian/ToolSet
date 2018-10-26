@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/goods_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="10dp" />
+
+    <ImageView
+        android:id="@+id/rank_image_view"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/goods_logo" />
+
+    <TextView
+        android:id="@+id/goods_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/goods_logo"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/black_38"
+        android:textSize="10sp"
+        tools:text="卡奈姿维他命口" />
+
+    <TextView
+        android:id="@+id/goods_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/goods_name"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/rmb"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"
+        tools:text="19.9" />
+
+    <TextView
+        android:id="@+id/rmb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/goods_money"
+        android:layout_below="@+id/goods_name"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/goods_logo"
+        android:gravity="bottom"
+        android:text="￥"
+        android:textColor="@color/colorAccent"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/sales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/goods_money"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:gravity="bottom"
+        android:text="已售：7.4万"
+        android:textColor="@color/gray_86"
+        android:textSize="10sp" />
+</RelativeLayout>

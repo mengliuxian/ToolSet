@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_F5"
+    android:orientation="vertical">
+
+    <include layout="@layout/back_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.flym.fhzk.view.CircleImageView
+                android:id="@+id/image_view"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/ic_simple" />
+
+            <TextView
+                android:id="@+id/textView_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_view"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="关于我们"
+                android:textColor="@color/black_38"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_one"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="凤凰折购，国内规模、用户活跃度遥遥领先的“返利导购”平台，网购达人公认的省钱神器！ 凤凰折购是淘宝、天猫的返利促销平台，所有的商品全部来源于淘宝和天猫。凤凰折购致力于满足消费者对品牌产品和对优质商品的性价比需求，努力打造成为越来越多的消费者喜欢并值得信赖的返利导购平台。上凤凰折购，省大发了！"
+                android:textColor="@color/black_38"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView_five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:text="大连龙平台网络科技开发有限公司"
+                android:textColor="@color/gray_86"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textView_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/textView_five"
+                android:gravity="center_horizontal"
+                android:text="Copyright  2017"
+                android:textColor="@color/gray_86"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

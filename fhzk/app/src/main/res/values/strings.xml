@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">凤凰折购</string>
+    <string name="loading_text">加载中…</string>
+    <string name="resend_code_tip">%s秒后重发</string>
+    <string-array name="MainBottomTabTitle">
+        <item>@string/home</item>
+        <item>@string/find</item>
+        <item>@string/mine</item>
+    </string-array>
+
+    <string name="home">首页</string>
+    <string name="find">找券</string>
+    <string name="mine">我的</string>
+
+    <integer-array name="MainBottomTabIcon">
+        <item>@drawable/selector_main_bottom_home</item>
+        <item>@drawable/selector_main_bottom_find</item>
+        <item>@drawable/selector_main_bottom_mind</item>
+    </integer-array>
+
+    <string-array name="classify">
+        <item>今日推荐</item>
+        <item>女装</item>
+        <item>美妆护肤</item>
+        <item>配饰</item>
+        <item>男装</item>
+        <item>鞋子</item>
+        <item>箱包</item>
+        <item>个人洗护</item>
+        <item>手机周边</item>
+        <item>数码家电</item>
+        <item>内衣袜子</item>
+        <item>成人用品</item>
+        <item>零食王国</item>
+        <item>日用家居</item>
+        <item>文体娱乐</item>
+    </string-array>
+
+    <string name="couponNum">共%s张购物券</string>
+
+</resources>
